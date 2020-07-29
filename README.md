@@ -1,6 +1,6 @@
-# Ben-OR-in-TLA-PlusCal
+# Ben-OR-in-TLA+-PlusCal
 - Implemented Binary Consensus algorithm Ben-OR in PLuscal which is translated to TLA+ model to check and test it's working in TLA+ Toolbox 
-- Model is tested for Invariants(Agreement property and Minority Report ), Temporal Properties (Termination and Progress property).
+- Model is tested for Invariants(_Agreement property and Minority Report_ ), Temporal Properties (_Termination and Progress property_).
 
 - Ben-Or is a consensus algorithm which was proposed by Ben Or. It takes only binary input as it is not a leader-based algorithm so in order to avoid tie in system. The protocol is fault resilient as long as f < n/2 and it also takes the assumption that all the channels are FIFO.   
 - It consists of indefinite number repetition of “asynchronous rounds”. The process which gets a round number are able to be processed for the rounds. These rounds are common for all “n-f” nodes. These “n-f” values are in the Input set, where “n” refers number of nodes/processes and “f” refers to number of faulty nodes.  
