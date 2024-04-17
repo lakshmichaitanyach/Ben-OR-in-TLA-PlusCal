@@ -1,0 +1,61 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true,
+      "mount_file_id": "1je_DDBlFy3INX1TLHbRVo-GypOJseLzS",
+      "authorship_tag": "ABX9TyOWXGHqMKKTf79bvvv8/O03",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/lakshmichaitanyach/Ben-OR-in-TLA-PlusCal/blob/master/virtual-try-on\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "nuQZxrWw-PZZ",
+        "outputId": "aee979a2-1f67-40c6-bc92-cef7551b4101"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Cloning into 'StableVITON'...\n",
+            "remote: Enumerating objects: 143, done.\u001b[K\n",
+            "remote: Counting objects: 100% (108/108), done.\u001b[K\n",
+            "remote: Compressing objects: 100% (87/87), done.\u001b[K\n",
+            "remote: Total 143 (delta 13), reused 105 (delta 13), pack-reused 35\u001b[K\n",
+            "Receiving objects: 100% (143/143), 2.44 MiB | 7.70 MiB/s, done.\n",
+            "Resolving deltas: 100% (13/13), done.\n"
+          ]
+        }
+      ],
+      "source": [
+        "!git clone https://github.com/rlawjdghek/StableVITON"
+      ]
+    }
+  ]
+}
